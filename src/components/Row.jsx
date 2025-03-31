@@ -21,7 +21,12 @@ const Row = ({ title, id, fetchUrl }) => {
 
         {/* 왼쪽 화살표*/}
         <div className="slider__arrow-left">
-          <span className="arrow">
+          <span 
+            className="arrow"
+            onClick={() => {
+              document.getElementById(id).scrollLeft -= window.innerWidth - 80;
+            }}
+          >
             {'<'}
           </span>
         </div>
@@ -40,7 +45,12 @@ const Row = ({ title, id, fetchUrl }) => {
 
         {/* 오른쪽 화살표 */}
         <div className="slider__arrow-right">
-          <span className="arrow">
+          <span 
+            className="arrow"
+            onClick={() => {
+              document.getElementById(id).scrollLeft += window.innerWidth + 80;
+            }}
+          >
             {'>'}
           </span>
         </div>
