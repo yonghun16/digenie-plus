@@ -10,11 +10,14 @@
 
 <ul>
   <li>
-      디지니 플러스 클론
+	  디지니 플러스 클론
   </li>
-	<li>
-		Single-page
-	</li>
+  <li>
+	  Single-page
+  </li>
+  <li>
+	  firebase SNS 인증 로그인
+  </li>
 </ul>
 
 </br>
@@ -29,7 +32,7 @@
 	<br>
         <!-- Vite --><a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white" /></a>
         <!-- Firebase --><a href="https://firebase.google.com"/><img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat&logo=Firebase&logoColor=white" /></a>
-  <br>
+        <br>
 	<!-- Vim --><a href="https://www.vim.org"><img src="https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white" /></a>
   
 </div>
